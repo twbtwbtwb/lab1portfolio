@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <header>
+        <h2>About Me <img src="http://18.222.134.253/lab1portfolio/aboutpic.PNG" alt="About Picture" width="34" height="34"></h2>
+    </header>
+    <body>
+        <p id="demo">My name is Tyler Willis.  I am currently a student at BYU studying computer science.  I recently graduated with an Associate's Degree from Scottsdale Community College, where I also plaed basketball.  I was a two-time Academic All-American. Upon completion of my two years there, I transferred to BYU to continue my education.</p>
+        <p id="demo1">I grew up mostly in Colorado, but have lived in a few different states.  I enjoy playing basketball and most other sports too.  I enjoy the outdoors and seeing nature.</p>
+        <p id="demo2">This is a basic portfolio using basic skills I have learned to show early work I have done in my computer science classes.</p>
+        <h3>If the font is too small, please click here <button type="button" onclick="enlargeFont(demo)">Click Me!</button></h3>
+        <script>
+            function enlargeFont() {
+                document.getElementById("demo").style.fontSize = "25px";
+                document.getElementById("demo1").style.fontSize = "25px";
+                document.getElementById("demo2").style.fontSize = "25px";
+            }
+        </script>
+        <img src="http://18.222.134.253/lab1portfolio/aboutpic.PNG" alt="About Picture" width="150" height="150">
+    </body>
+    <footer>
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navigation</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://18.222.134.253/lab1portfolio/home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://18.222.134.253/lab1portfolio/about.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://18.222.134.253/lab1portfolio/projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://18.222.134.253/lab1portfolio/workexperience.html">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://18.222.134.253/lab1portfolio/links.html">Links</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </footer>
+</html>
