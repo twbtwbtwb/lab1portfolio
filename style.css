@@ -1,0 +1,21 @@
+header {
+    background-color: DodgerBlue;
+}
+footer {
+    background-color: rgb(240, 240, 240);
+}
+h2 {
+    color: white;
+    font-size: 50px;
+    border: 25px solid DodgerBlue;
+}
+h3 {
+    color: DarkBlue;
+}
+p {
+    color: DarkBlue;
+}
+h4 {
+    color: DarkBlue;
+    font-size: 30px;
+}
